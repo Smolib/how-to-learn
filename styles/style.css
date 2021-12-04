@@ -334,8 +334,7 @@
 .footer {
   min-height: 350px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: center;
 
   box-sizing: border-box;
 
@@ -358,7 +357,9 @@
 .footer__column_content_copyright {  
   flex-basis: 711px;
 
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .footer__column_content_info {
@@ -370,11 +371,6 @@
 }
 
 .footer__author {
-  position: absolute;
-
-  bottom: 0;
-  left: 0;
-
   margin: 18px 0;
 
   color: white;
