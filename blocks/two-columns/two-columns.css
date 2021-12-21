@@ -1,8 +1,7 @@
 .two-columns {
-    width: 80%;
-    align-self: center;
-  
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-  }
+  width: 80%;
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
