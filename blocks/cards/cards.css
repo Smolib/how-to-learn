@@ -4,4 +4,6 @@
     display: flex;
     justify-content: start;
     margin: 0;
+
+    flex-wrap: wrap;
 }
